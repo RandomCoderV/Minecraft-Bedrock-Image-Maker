@@ -91,6 +91,34 @@ You didn't select an image dude!
 
 ```
 Traceback (most recent call last):
+  File >Your program file path<, line 201, in <module>
+    >x or z<pos = int(input('enter the image center >x or z< position: '))
+ValueError: invalid literal for int() with base 10: >Whatever dumb thing you entered<
+```
+You entered something that is not an integer at the X or Z lines.
+
+```
+Traceback (most recent call last):
+  File >Your program file path<, line 203, in <module>
+    world_path = choose_world()
+  File >Your program file path<, line 166, in choose_world
+    print('you chose ', worlds[int(select)][0])
+IndexError: list index out of range
+```
+You entered a value above the number of worlds.
+
+```
+Traceback (most recent call last):
+  File >Your program file path<, line 203, in <module>
+    world_path = choose_world()
+  File >Your program file path<, line 166, in choose_world
+    print('you chose ', worlds[int(select)][0])
+ValueError: invalid literal for int() with base 10: >Whatever the heck you entered<
+```
+You didn't enter an integer when you should have at the worlds line.
+
+```
+Traceback (most recent call last):
   File >Your program file path<, line 50, in <module>
     from PIL import Image
 ModuleNotFoundError: No module named 'PIL'
