@@ -91,7 +91,7 @@ You didn't select an image dude!
 
 ```
 Traceback (most recent call last):
-  File "<pyshell#0>", line 1, in <module>
+  File >Your program file path<, line 50, in <module>
     from PIL import Image
 ModuleNotFoundError: No module named 'PIL'
 ```
