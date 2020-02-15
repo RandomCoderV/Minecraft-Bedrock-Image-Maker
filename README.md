@@ -95,7 +95,7 @@ Traceback (most recent call last):
     from PIL import Image
 ModuleNotFoundError: No module named 'PIL'
 ```
-You don't have the Python Image Library
+You don't have the Python Image Library.
 Install by opening the windows command prompt and typing:
 ```
 pip install pillow
